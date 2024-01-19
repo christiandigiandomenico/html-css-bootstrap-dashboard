@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid flex-nowrap ">
+        <div class="container-fluid flex-nowrap">
             <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo"></a>
             <form class="d-flex w-100" role="search">
                 <input class="form-control me-2" type="search" placeholder="Prova a cercare: lezioni di laravel"
@@ -49,13 +49,13 @@
 
     <div class="container-fluid">
 
-        <div class="row">
+        <div class="row me-0">
 
             <div class="col-1 text-white my_aside d-flex">
 
                 <div class="row align-content-between">
 
-                    <div class="col-12 py-5 ps-3">
+                    <div class="col-lg-12 py-5 ps-3">
 
                         <div class="icon_aside"><i class="fa-solid fa-house pe-3"></i> Home</div>
 
@@ -65,7 +65,7 @@
 
                     </div>
 
-                    <div class="col-12 py-5 ps-3">
+                    <div class="col-lg-12 py-5 ps-3">
 
                         <div class="icon_aside"><i class="fa-solid fa-gear pe-3"></i> Admin</div>
 
@@ -75,32 +75,55 @@
 
             </div>
 
-            <div class="col-11 mx-0 px-0">
+            <div class="col-lg-11 mx-0 px-0">
 
-                <div class="col-12 mb-3 my_topbar">
+                <div class="col-lg-12 mb-3 my_topbar">
 
                     <div class="row text-white">
 
-                        <div class="col-6 px-4">
+                        <div class="col-lg-6 px-4">
 
                             <div class="my_title fs-1 d-inline-block">Boolean</div>
 
                             <button type="button" class="btn btn-success rounded-pill my_btn"
                                 style="--bs-btn-padding-y: 2px; --bs-btn-padding-x: 7px; --bs-btn-font-size: .75rem;">
-                                Custom button
+                                Piano blaze
                             </button>
 
-                        </div>
-                        <div class="col-3">
+                            <nav style="--bs-breadcrumb-divider: '&#187;';" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#"><button type="button"
+                                                class="btn btn-success rounded-pill my_btn"
+                                                style="--bs-btn-padding-y: 2px; --bs-btn-padding-x: 7px; --bs-btn-font-size: .75rem;">
+                                                3 app
+                                            </button></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page"><button type="button"
+                                            class="btn btn-success rounded-pill my_btn"
+                                            style="--bs-btn-padding-y: 2px; --bs-btn-padding-x: 7px; --bs-btn-font-size: .75rem;">
+                                            Boolean mobile app
+                                        </button></li>
+                                    <button type="button" class="btn btn-success rounded-pill my_btn"
+                                        style="--bs-btn-padding-y: 2px; --bs-btn-padding-x: 7px; --bs-btn-font-size: .75rem;">
+                                        Boolean web app
+                                    </button>
+                                    <button type="button" class="btn btn-success rounded-pill my_btn"
+                                        style="--bs-btn-padding-y: 2px; --bs-btn-padding-x: 7px; --bs-btn-font-size: .75rem;">
+                                        Boolean blog app
+                                    </button>
+                                </ol>
+                            </nav>
 
-                            Studenti online negli ultimi 30 minuti
+                        </div>
+                        <div class="col-lg-3">
+
+                            <div class="students_online py-3">Studenti online negli ultimi 30 minuti</div>
 
                             <h2>125</h2>
 
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3">
 
-                            Nuovo studente
+                            <div class="new_student py-3">Nuovo studente</div>
 
                         </div>
 
@@ -108,29 +131,41 @@
 
                 </div>
 
-                <div class="row mx-0 px-0">
+                <div class="row mx-0 px-3">
 
-                    <div class="col-8">
+                    <div class="col-lg-8 card px-0">
 
-                        <div class="col-12 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quod
-                            debitis
-                            veniam delectus, ex natus deleniti modi eos corrupti earum quos, nesciunt architecto harum
-                            ea. Quos dolores natus a numquam.</div>
+                        <div class="col-lg-12 mb-3 superior_container">
 
-                        <div class="col-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis dolorum
+                            <div class="next_class border-bottom p-3 fs-3">Prossime Classi</div>
+
+                            <div class="row ps-3 py-3 mx-0 border-bottom">
+                                <div class="col-7 fw-bold">Nome</div>
+
+                                <div class="col-2 fw-bold">Data Inizio</div>
+                                <div class="col-1 fw-bold">ROI</div>
+                                <div class="col-1 fw-bold">Stato</div>
+                                <div class="col-1 fw-bold">Azioni</div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
+                            dolorum
                             facilis explicabo iure, quo ipsa nesciunt culpa repellendus temporibus architecto expedita
                             vitae tempore velit suscipit perspiciatis eum autem officiis quas.</div>
 
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4">
 
-                        <div class="col-12 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quod
+                        <div class="col-lg-12 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quod
                             debitis
                             veniam delectus, ex natus deleniti modi eos corrupti earum quos, nesciunt architecto harum
                             ea. Quos dolores natus a numquam.</div>
 
-                        <div class="col-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis dolorum
+                        <div class="col-lg-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
+                            dolorum
                             facilis explicabo iure, quo ipsa nesciunt culpa repellendus temporibus architecto expedita
                             vitae tempore velit suscipit perspiciatis eum autem officiis quas.</div>
 

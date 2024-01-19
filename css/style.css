@@ -1,5 +1,6 @@
 .my_aside {
-    height: calc(100vh - 74px);
+    height: calc(100vh - 58px);
+    width: 75px;
     background-color: #051e34;
 }
 
@@ -14,4 +15,14 @@
 .my_btn {
     background-color: #165bba;
     border: 0px;
+}
+
+.next_class {
+    background-color: #f7f7f7;
+}
+
+@media screen and (min-width: 992px) {
+    .my_aside {
+        width: 150px;
+    }
 }
