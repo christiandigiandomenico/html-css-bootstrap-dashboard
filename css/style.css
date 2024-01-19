@@ -1,0 +1,17 @@
+.my_aside {
+    height: calc(100vh - 74px);
+    background-color: #051e34;
+}
+
+.my_topbar {
+    background-color: #1b72e8;
+}
+
+.fa-solid.fa-bell {
+    color: #ff8f00;
+}
+
+.my_btn {
+    background-color: #165bba;
+    border: 0px;
+}
