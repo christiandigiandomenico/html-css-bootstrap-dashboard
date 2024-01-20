@@ -4,6 +4,12 @@
     background-color: #051e34;
 }
 
+.my_main {
+    width: calc(100vw - 75px);
+    height: calc(100vh - 58px);
+    overflow-y: auto;
+}
+
 .my_topbar {
     background-color: #1b72e8;
 }
@@ -21,8 +27,16 @@
     background-color: #f7f7f7;
 }
 
+th img {
+    width: 25px;
+}
+
 @media screen and (min-width: 992px) {
     .my_aside {
         width: 150px;
+    }
+
+    .my_main {
+        width: calc(100% - 150px);
     }
 }
