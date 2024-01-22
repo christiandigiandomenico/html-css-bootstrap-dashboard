@@ -31,6 +31,12 @@ th img {
     width: 25px;
 }
 
+.my_input input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
 @media screen and (min-width: 992px) {
     .my_aside {
         width: 150px;
