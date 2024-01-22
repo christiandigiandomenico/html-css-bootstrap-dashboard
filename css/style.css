@@ -31,14 +31,14 @@ th img {
     width: 25px;
 }
 
-.modal-dialog.modal-fullscreen {
-    width: 50%;
+.offcanvas.offcanvas-end {
+    width: 40%;
 }
 
 
 @media screen and (max-width: 576px) {
 
-    .modal-dialog.modal-fullscreen {
+    .offcanvas.offcanvas-end {
         width: 100%;
     }
 
