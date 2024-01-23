@@ -2,6 +2,8 @@
     height: calc(100vh - 58px);
     width: 75px;
     background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
 }
 
 .my_main {
